@@ -1,0 +1,66 @@
+@media (max-width:1172px){
+    .nav-box-list{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: -130%;
+        left: 0;
+        z-index: 999;
+        background: rgba(0, 0, 0, 0.8);
+        transition: 0.5s;
+        font-size: 30px;
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .burger:hover ~ .nav-box-list{
+        top: 0;
+        padding-top: 25px;
+    }
+    .footer-nav{
+        justify-content: center;
+    }
+    .nav-box-list a{
+        color: white;
+    }
+}
+@media (max-width:532px){
+    .nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    .burger{
+        top: 15px;
+        left: 89%;
+    }
+}
+@media (max-width:500px){
+    .burger{
+        top: 45px;
+        left: 89%;
+    }
+}
+@media (max-width:412px){
+    .news-advice{
+        padding: 55px 55px 90px 32px;
+        position: relative;
+    }
+    .news-advice .sale{
+        font-size: 12px;
+        position: absolute;
+        left: 60%;
+        top: 2%;
+    }
+    .box-right{
+        padding: 94px 50px 94px 50px;
+    }
+    .box-left{
+        padding: 36px 23px 23px 55px;
+    }
+    .sale-price{
+        font-size: 17px;
+    }
+}
